@@ -1,6 +1,6 @@
 # Desarrollada para Patricio Tambo - Consultor
 
-### Para realizar el levantamiento 
+### Para realizar el levantamiento del proyecto
 
 1. Realiza las instalaciones de las dependencias con: `npm install`
 2. Para inicializarlo localmente ejecutar :  `npm run serve`
