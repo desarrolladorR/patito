@@ -1,127 +1,26 @@
 <template>
     <div>
-
-        <div class="position-relative">
-            <!-- shape Hero -->
-            <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="container shape-container d-flex">
-                    <div class="col px-0">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <h1 class="display-3  text-white">A beautiful Design System
-                                    <span>completed with examples</span>
-                                </h1>
-                                <p class="lead  text-white">The design system comes with four pre-built pages to help
-                                    you get started faster. You can change the text and images and you're good to
-                                    go.</p>
-                                <div class="btn-wrapper">
-                                    <base-button tag="a"
-                                                 href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="info"
-                                                 icon="fa fa-code">
-                                        Components
-                                    </base-button>
-                                    <base-button tag="a"
-                                                 href="https://www.creative-tim.com/product/argon-design-system"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="white"
-                                                 icon="ni ni-cloud-download-95">
-                                        Download HTML
-                                    </base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- 1st Hero Variation -->
-        </div>
-        <section class="section section-lg pt-lg-0 mt--200">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="row row-grid">
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Download Argon +++</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>creative</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-success text-uppercase">Build Something</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="success" rounded>business</badge>
-                                        <badge type="success" rounded>vision</badge>
-                                        <badge type="success" rounded>success</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-                            <div class="col-lg-4">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>product</badge>
-                                        <badge type="warning" rounded>launch</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <hero></hero>
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <img src="img/theme/promo-1.png" class="img-fluid floating">
+                        <img src="img/imagenes/equipo2.webp" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
-                            <h3>Awesome features</h3>
-                            <p>The kit comes with three pre-built pages to help you get started faster. You can change
-                                the text and images and you're good to go.</p>
+                            <icon name="ni ni-single-02" class="mb-5" size="lg" type="success" shadow rounded></icon>
+
+                            <h2>Quiénes Somos</h2>
+                            <h5>Experiencia y Compromiso con la Seguridad Laboral</h5>
+                            <p>
+                                En PT Consultores, somos un equipo de profesionales con amplia experiencia en los sectores
+                                industrial,
+                                de construcción, manufactura y servicios.
+                                Nos especializamos en ofrecer soluciones integrales en Seguridad,
+                                Salud Ocupacional y Producción Industrial, cumpliendo la normativa legal vigente y
+                                garantizando la optimización de recursos para nuestros clientes.
+                            </p>
                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
@@ -147,6 +46,207 @@
                 </div>
             </div>
         </section>
+
+        <div class="position-relative">
+            <section class="section-shaped my-0">
+                <div class="shape shape-style-1 shape-default shape-skew">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="container shape-container d-flex" style="transform: translateY(-280px); ">
+                    <div class="row justify-content-center">
+                        <div class="container">
+                            <h1 class="display-3  text-white">
+                                Nuestros Servicios Principales
+                            </h1>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <div class="row row-grid">
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="primary" rounded class="mb-4">
+                                                    <img src="img/consultoria/seguridadYsalud.svg" style="svg"
+                                                        class="img-fluid">
+                                                </icon>
+                                                
+                                                <img src="img/imagenes/seguridadYSalud.webp" class="img-fluid">
+                                                <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad y
+                                                    Salud Ocupacional
+                                                </h6>
+                                                <ul class="description mt-3">
+                                                    <li>Elaboración de matrices de riesgos laborales</li>
+                                                    <li>Planes y reglamentos de seguridad</li>
+                                                    <li>Capacitaciones preventivas y emergentes</li>
+                                                    <li>Evaluaciones psicosociales y ocupacionales</li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="primary" rounded>riesgos</badge>
+                                                    <badge type="primary" rounded>seguridad</badge>
+                                                    <badge type="primary" rounded>Evaluaciones</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="primary" class="mt-4">
+                                                    Leer Más
+                                                </base-button>
+                                            </card>
+                                        </div>
+
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="success" rounded class="mb-4">
+                                                    <img src="img/consultoria/certificado.svg" style="svg"
+                                                        class="img-fluid">
+                                                </icon>
+
+                                                <img src="img/imagenes/certificados.png" class="img-fluid">
+                                                <h6 class="text-success text-uppercase">Certificación en Competencias
+                                                    Laborales</h6>
+                                                <ul class="description mt-3">
+                                                    <li>Formación en prevención de riesgos laborales (Registro SENESCYT)
+                                                    </li>
+                                                    <li>Acompañamiento integral para la certificación</li>
+                                                    <li>Capacitación en normativa vigente y análisis de riesgos</li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="success" rounded>certificado</badge>
+                                                    <badge type="success" rounded>capacitación</badge>
+                                                    <badge type="success" rounded>normativa</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="success" class="mt-4">
+                                                    Leer más
+                                                </base-button>
+                                            </card>
+                                        </div>
+
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="warning" rounded class="mb-4">
+                                                    <img src="img/consultoria/gestionAmbiental.svg" style="svg"
+                                                        class="img-fluid">
+                                                </icon>
+
+                                                <img src="img/imagenes/gestionIntegral.jpg" class="img-fluid">
+                                                <h6 class="text-warning text-uppercase">
+                                                    Sistemas de Gestión Integral
+                                                </h6>
+                                                <ul class="description mt-3">
+                                                    <li>Implementación y auditoría de sistemas de gestión basados en normas
+                                                        ISO (9001, 14001, 45001)</li>
+                                                    <li>Integración de procesos de calidad, seguridad y medio ambiente</li>
+                                                    <li>Acompañamiento técnico en mejora continua y cumplimiento normativo
+                                                    </li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="warning" rounded>licencias</badge>
+                                                    <badge type="warning" rounded>mitigación</badge>
+                                                    <badge type="warning" rounded>residuos</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="warning" class="mt-4">
+                                                    Leer más
+                                                </base-button>
+                                            </card>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12" style="transform: translateY(30px); ">
+                                    <div class="row row-grid">
+
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="info" rounded class="mb-4">
+                                                    <img src="img/consultoria/industria.svg" style="svg" class="img-fluid">
+                                                </icon>
+                                                <img src="img/imagenes/confeccionIndustrial.jpg" class="img-fluid">
+                                                <h6 class="text-info text-uppercase">
+                                                    Producción y Confección Textil Industrial
+                                                </h6>
+                                                <ul class="description mt-3">
+                                                    <li>Optimización de procesos productivos</li>
+                                                    <li>Balanceo de líneas y tiempos</li>
+                                                    <li>Implementación de sistemas “Justo a Tiempo”</li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="info" rounded>procesos</badge>
+                                                    <badge type="info" rounded>sistemas</badge>
+                                                    <badge type="info" rounded>textil</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="info" class="mt-4">
+                                                    Leer Más
+                                                </base-button>
+                                            </card>
+                                        </div>
+
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="warning" rounded class="mb-4">
+                                                    <img src="img/consultoria/equiposProteccion.svg" style="svg"
+                                                        class="img-fluid">
+                                                </icon>
+                                                <img src="img/imagenes/equiposProteccion.jpg" class="img-fluid">
+                                                <h6 class="text-warning text-uppercase">Venta y Asesoramiento en Equipos de
+                                                    Protección Personal</h6>
+                                                <ul class="description mt-3">
+                                                    <li>Selección y cotización de EPP según riesgo laboral </li>
+                                                    <li>Comercialización de marcas certificadas</li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="warning" rounded>cotización</badge>
+                                                    <badge type="warning" rounded>riesgo</badge>
+                                                    <badge type="warning" rounded>laboral</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="warning" class="mt-4">
+                                                    Leer más
+                                                </base-button>
+                                            </card>
+                                        </div>
+
+                                        <div class="col-lg-4">
+                                            <card class="border-0" hover shadow body-classes="py-5">
+                                                <icon type="light" rounded class="mb-4">
+                                                    <img src="img/consultoria/regulacionGestionAmbiental.svg" style="svg"
+                                                        class="img-fluid">
+                                                </icon>
+
+                                                <img src="img/imagenes/regulacionAmbiental.jpg" class="img-fluid">
+                                                <h6 class="text-light text-uppercase">
+                                                    Regularización y Gestión Ambiental
+                                                </h6>
+                                                <ul class="description mt-3">
+                                                    <li>Certificados, registros y licencias ambientales</li>
+                                                    <li>Planes de manejo y mitigación</li>
+                                                    <li>Gestión integral de residuos sólidos y efluentes</li>
+                                                </ul>
+                                                <div>
+                                                    <badge type="light" rounded>licencias</badge>
+                                                    <badge type="light" rounded>mitigación</badge>
+                                                    <badge type="light" rounded>residuos</badge>
+                                                </div>
+                                                <base-button tag="a" href="#" type="light" class="mt-4">
+                                                    Leer más
+                                                </base-button>
+                                            </card>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+
+
         <section class="section bg-secondary">
             <div class="container">
                 <div class="row row-grid align-items-center">
@@ -155,7 +255,7 @@
                             <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                                     class="svg-bg">
+                                    class="svg-bg">
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
@@ -204,7 +304,7 @@
                         <div class="d-flex px-3">
                             <div>
                                 <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
-                                      rounded></icon>
+                                    rounded></icon>
                             </div>
                             <div class="pl-4">
                                 <h4 class="display-3 text-white">Modern Interface</h4>
@@ -215,8 +315,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">Awesome Support</h5>
@@ -229,8 +328,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">Modular Components</h5>
@@ -257,8 +355,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-1-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Ryan Tompson</span>
@@ -266,11 +363,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -278,8 +375,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-2-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Romina Hadid</span>
@@ -287,11 +383,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -299,8 +395,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-3-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Alexander Smith</span>
@@ -308,11 +403,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -320,8 +415,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-4-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">John Doe</span>
@@ -329,11 +423,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -343,10 +437,7 @@
         </section>
         <section class="section section-lg pt-0">
             <div class="container">
-                <card gradient="warning"
-                      no-body
-                      shadow-size="lg"
-                      class="border-0">
+                <card gradient="warning" no-body shadow-size="lg" class="border-0">
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
@@ -356,7 +447,7 @@
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
                                 <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
-                                             type="white" block size="lg">
+                                    type="white" block size="lg">
                                     Download Vue
                                 </base-button>
                             </div>
@@ -403,34 +494,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-lg pt-lg-0 section-contact-us">
-            <div class="container">
-                <div class="row justify-content-center mt--300">
-                    <div class="col-lg-8">
-                        <card gradient="secondary" shadow body-classes="p-lg-5">
-                            <h4 class="mb-1">Want to work with us?</h4>
-                            <p class="mt-0">Your project is very important to us.</p>
-                            <base-input class="mt-5"
-                                        alternative
-                                        placeholder="Your name"
-                                        addon-left-icon="ni ni-user-run">
-                            </base-input>
-                            <base-input alternative
-                                        placeholder="Email address"
-                                        addon-left-icon="ni ni-email-83">
-                            </base-input>
-                            <base-input class="mb-4">
-                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
-                                              cols="80" placeholder="Type a message..."></textarea>
-                            </base-input>
-                            <base-button type="default" round block size="lg">
-                                Send Message
-                            </base-button>
-                        </card>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid justify-content-center">
@@ -443,51 +507,51 @@
                             old Bootstrap project a new look!</p>
                         <div class="btn-wrapper">
                             <a href="https://www.creative-tim.com/product/vue-argon-design-system"
-                               class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
+                                class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
                         </div>
                         <div class="text-center">
                             <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
                             <div class="row justify-content-center">
                                 <div class="col-lg-2 col-4">
                                     <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="Bootstrap 4 - Most popular front-end component library">
+                                        data-original-title="Bootstrap 4 - Most popular front-end component library">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'"
-                                             class="img-fluid">
+                                            class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                                        data-original-title="[Coming Soon] Sketch - Digital design toolkit">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                                        data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg'"
-                                             class="img-fluid  opacity-5">
+                                            class="img-fluid  opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="Vue.js - The progressive javascript framework">
+                                        data-original-title="Vue.js - The progressive javascript framework">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg'"
-                                             class="img-fluid">
+                                            class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                                        data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                                        data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                             </div>
@@ -501,8 +565,12 @@
 </template>
 
 <script>
+import Hero from "./components/Hero";
+
 export default {
-  name: "home",
-  components: {}
+    name: "home",
+    components: {
+        Hero
+    }
 };
 </script>

@@ -13,7 +13,7 @@ Vue.use(Router);
 export default new Router({
   linkExactActiveClass: "active",
   routes: [
-    {
+/*     {
       path: "/",
       name: "components",
       components: {
@@ -21,9 +21,9 @@ export default new Router({
         default: Components,
         footer: AppFooter
       }
-    },
+    }, */
     {
-      path: "/landing",
+      path: "/",
       name: "landing",
       components: {
         header: AppHeader,
