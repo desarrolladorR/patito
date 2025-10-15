@@ -1,7 +1,7 @@
 <template>
     <div>
         <hero></hero>
-        <section class="section section-lg">
+        <section class="section section-sm">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
@@ -47,7 +47,7 @@
             </div>
         </section>
 
-        <div class="position-relative">
+        <div class="position-relative section-sm">
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 shape-default shape-skew">
                     <span></span>
@@ -76,7 +76,7 @@
                                                     <img src="img/consultoria/seguridadYsalud.svg" style="svg"
                                                         class="img-fluid">
                                                 </icon>
-                                                
+
                                                 <img src="img/imagenes/seguridadYSalud.webp" class="img-fluid">
                                                 <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad y
                                                     Salud Ocupacional
@@ -244,10 +244,137 @@
 
         </div>
 
+        <section class="section section-lg section-shaped my-0 overflow-hidden" style="transform: translateY(-350px); ">
+            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container py-0">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6 order-lg-2 ml-lg-auto">
+                        <div class="position-relative pl-md-5">
+                            <img src="img/ill/ill-2.svg" class="img-center img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="d-flex px-3">
+                            <div>
+                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
+                                    rounded></icon>
+                            </div>
+                            <div class="pl-4">
+                                <h4 class="display-3 text-white">Nuestros Objetivos</h4>
+                            </div>
+                        </div>
+
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">POSICIONAMIENTO</h5>
+                                   <!--  <p>Ser reconocidos a nivel nacional como una empresa líder en asesoría y capacitación
+                                        técnica dentro de los campos de seguridad, salud laboral, ambiente y producción
+                                        industrial,
+                                        fortaleciendo la confianza y satisfacción de nuestros clientes mediante servicios
+                                        oportunos,
+                                        eficientes y de alta calidad.</p> -->
+                                    <a href="#" class="text-success">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-warning">CRECIMIENTO</h5>
+                                    <!-- <p>
+                                        Impulsar un crecimiento sostenible y continuo, tanto en la capacidad técnica del
+                                        equipo humano
+                                        como en la cobertura de servicios ofrecidos, consolidando alianzas estratégicas que
+                                        promuevan
+                                        la mejora constante y la innovación dentro de los procesos industriales y
+                                        empresariales.
+                                    </p> -->
+                                    <a href="#" class="text-warning">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">RENTABILIDAD</h5>
+                                   <!--  <p>
+                                        Asegurar la eficiencia económica de los proyectos desarrollados,
+                                        optimizando recursos y generando soluciones que incrementen la productividad y
+                                        competitividad
+                                        de nuestros clientes, siempre bajo principios de responsabilidad social y
+                                        sostenibilidad
+                                        ambiental.
+                                    </p> -->
+                                    <a href="#" class="text-success">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">EFICIENCIA Y PRODUCTIVIDAD</h5>
+                                    <!-- <p>
+                                        Fomentar la optimización de procesos industriales y administrativos,
+                                        aplicando metodologías de mejora continua, planificación estratégica y control de
+                                        producción.
+                                        El objetivo es garantizar resultados medibles en calidad,
+                                        costo, entrega y seguridad.
+                                    </p> -->
+                                    <a href="#" class="text-success">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+
+                        <card shadow class="shadow-lg--hover mt-5">
+                            <div class="d-flex px-3">
+                                <div>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-warning">SEGURIDAD Y MEDIO AMBIENTE</h5>
+                                    <!-- <p>
+                                       Promover una cultura de prevención de riesgos laborales y de responsabilidad ambiental, 
+                                       mediante la implementación de prácticas seguras y sostenibles que aseguren el bienestar 
+                                       del trabajador, la protección del entorno y el cumplimiento de la normativa vigente. 
+                                    </p> -->
+                                    <a href="#" class="text-warning">Learn more</a>
+                                </div>
+                            </div>
+                        </card>
+
+                     
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+        </section>
 
 
 
-        <section class="section bg-secondary">
+        <section class="section bg-secondary " style="transform: translateY(-390px); ">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
@@ -284,65 +411,10 @@
                 </div>
             </div>
         </section>
-        <section class="section section section-shaped my-0 overflow-hidden">
-            <div class="shape shape-style-1 bg-gradient-warning shape-skew">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="container py-0">
-                <div class="row row-grid align-items-center">
-                    <div class="col-md-6 order-lg-2 ml-lg-auto">
-                        <div class="position-relative pl-md-5">
-                            <img src="img/ill/ill-2.svg" class="img-center img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="d-flex px-3">
-                            <div>
-                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
-                                    rounded></icon>
-                            </div>
-                            <div class="pl-4">
-                                <h4 class="display-3 text-white">Modern Interface</h4>
-                                <p class="text-white">The Arctic Ocean freezes every winter and much of the sea-ice then
-                                    thaws every summer, and that process will continue whatever happens.</p>
-                            </div>
-                        </div>
-                        <card shadow class="shadow-lg--hover mt-5">
-                            <div class="d-flex px-3">
-                                <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="title text-success">Awesome Support</h5>
-                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                        every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-success">Learn more</a>
-                                </div>
-                            </div>
-                        </card>
-                        <card shadow class="shadow-lg--hover mt-5">
-                            <div class="d-flex px-3">
-                                <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="title text-warning">Modular Components</h5>
-                                    <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws
-                                        every summer, and that process will continue whatever happens.</p>
-                                    <a href="#" class="text-warning">Learn more</a>
-                                </div>
-                            </div>
-                        </card>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section section-lg">
+
+
+
+        <section class="section section-sm">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
