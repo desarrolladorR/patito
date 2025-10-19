@@ -263,8 +263,10 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="d-flex px-3">
                             <div>
-                                <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
-                                    rounded></icon>
+                                <icon size="lg" class="bg-gradient-white" color="primary" shadow rounded>
+                                    <i class="fa fa-sitemap bg-gradient-white" color="primary" aria-hidden="true"></i>
+                                </icon>
+
                             </div>
                             <div class="pl-4">
                                 <h4 class="display-3 text-white">Nuestros Objetivos</h4>
@@ -278,13 +280,17 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">POSICIONAMIENTO</h5>
-                                   <!--  <p>Ser reconocidos a nivel nacional como una empresa líder en asesoría y capacitación
-                                        técnica dentro de los campos de seguridad, salud laboral, ambiente y producción
-                                        industrial,
-                                        fortaleciendo la confianza y satisfacción de nuestros clientes mediante servicios
-                                        oportunos,
-                                        eficientes y de alta calidad.</p> -->
-                                    <a href="#" class="text-success">Learn more</a>
+                                    <base-modal ref="modal1" title="POSICIONAMIENTO" button-text="Leer Más"
+                                        button-type="primary" @confirm="guardarInfo">
+                                        <p>Ser reconocidos a nivel nacional como una empresa líder en asesoría y
+                                            capacitación
+                                            técnica dentro de los campos de seguridad, salud laboral, ambiente y producción
+                                            industrial,
+                                            fortaleciendo la confianza y satisfacción de nuestros clientes mediante
+                                            servicios
+                                            oportunos,
+                                            eficientes y de alta calidad.</p>
+                                    </base-modal>
                                 </div>
                             </div>
                         </card>
@@ -295,16 +301,20 @@
                                     <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-warning">CRECIMIENTO</h5>
-                                    <!-- <p>
-                                        Impulsar un crecimiento sostenible y continuo, tanto en la capacidad técnica del
-                                        equipo humano
-                                        como en la cobertura de servicios ofrecidos, consolidando alianzas estratégicas que
-                                        promuevan
-                                        la mejora constante y la innovación dentro de los procesos industriales y
-                                        empresariales.
-                                    </p> -->
-                                    <a href="#" class="text-warning">Learn more</a>
+                                    <h5 class="title text-warning">CRECIMIENTO</h5> 
+                                    <base-modal ref="modal2" title="CRECIMIENTO" button-text="Leer Más"
+                                        button-type="warning" @confirm="confirmarAccion">
+                                        <p>
+                                            Impulsar un crecimiento sostenible y continuo, tanto en la capacidad técnica
+                                            del
+                                            equipo humano
+                                            como en la cobertura de servicios ofrecidos, consolidando alianzas
+                                            estratégicas que
+                                            promuevan
+                                            la mejora constante y la innovación dentro de los procesos industriales y
+                                            empresariales.
+                                        </p>
+                                    </base-modal>
                                 </div>
                             </div>
                         </card>
@@ -316,15 +326,18 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">RENTABILIDAD</h5>
-                                   <!--  <p>
-                                        Asegurar la eficiencia económica de los proyectos desarrollados,
-                                        optimizando recursos y generando soluciones que incrementen la productividad y
-                                        competitividad
-                                        de nuestros clientes, siempre bajo principios de responsabilidad social y
-                                        sostenibilidad
-                                        ambiental.
-                                    </p> -->
-                                    <a href="#" class="text-success">Learn more</a>
+                                    <!--  -->
+                                    <base-modal ref="modal3" title="RENTABILIDAD" button-text="Leer Más"
+                                        button-type="success" @confirm="verDetalles">
+                                        <p>
+                                            Asegurar la eficiencia económica de los proyectos desarrollados,
+                                            optimizando recursos y generando soluciones que incrementen la productividad y
+                                            competitividad
+                                            de nuestros clientes, siempre bajo principios de responsabilidad social y
+                                            sostenibilidad
+                                            ambiental.
+                                        </p>
+                                    </base-modal>
                                 </div>
                             </div>
                         </card>
@@ -335,15 +348,18 @@
                                     <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-success">EFICIENCIA Y PRODUCTIVIDAD</h5>
-                                    <!-- <p>
-                                        Fomentar la optimización de procesos industriales y administrativos,
-                                        aplicando metodologías de mejora continua, planificación estratégica y control de
-                                        producción.
-                                        El objetivo es garantizar resultados medibles en calidad,
-                                        costo, entrega y seguridad.
-                                    </p> -->
-                                    <a href="#" class="text-success">Learn more</a>
+                                    <h5 class="title text-success">EFICIENCIA Y PRODUCTIVIDAD</h5> 
+                                    <base-modal ref="modal4" title="EFICIENCIA Y PRODUCTIVIDAD" button-text="Leer Más"
+                                        button-type="success" @confirm="verDetalles">
+                                        <p>
+                                            Fomentar la optimización de procesos industriales y administrativos,
+                                            aplicando metodologías de mejora continua, planificación estratégica y control
+                                            de
+                                            producción.
+                                            El objetivo es garantizar resultados medibles en calidad,
+                                            costo, entrega y seguridad.
+                                        </p>
+                                    </base-modal>
                                 </div>
                             </div>
                         </card>
@@ -355,26 +371,113 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">SEGURIDAD Y MEDIO AMBIENTE</h5>
-                                    <!-- <p>
-                                       Promover una cultura de prevención de riesgos laborales y de responsabilidad ambiental, 
-                                       mediante la implementación de prácticas seguras y sostenibles que aseguren el bienestar 
-                                       del trabajador, la protección del entorno y el cumplimiento de la normativa vigente. 
-                                    </p> -->
-                                    <a href="#" class="text-warning">Learn more</a>
+                                    <base-modal ref="modal5" title="SEGURIDAD Y MEDIO AMBIENTE" button-text="Leer Más"
+                                        button-type="info" @confirm="verDetalles">
+                                        <p>
+                                            Promover una cultura de prevención de riesgos laborales y de responsabilidad
+                                            ambiental,
+                                            mediante la implementación de prácticas seguras y sostenibles que aseguren el
+                                            bienestar
+                                            del trabajador, la protección del entorno y el cumplimiento de la normativa
+                                            vigente.
+                                        </p>
+                                    </base-modal>
                                 </div>
                             </div>
                         </card>
 
-                     
+
                     </div>
                 </div>
             </div>
             <br><br><br><br><br><br>
         </section>
 
+        <section class="section section-sm" style="transform: translateY(-250px); ">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-lg">
+                    <div class="col-lg-8">
+                        <h2 class="display-3">Nuestra experiencia se refleja en:</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
+                        <div class="px-4">
+
+                            <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
+                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #444444;">
+                                <i class="fa fa-calendar fa-4x" aria-hidden="true" style="color: white;"></i>
+                            </div>
 
 
-        <section class="section bg-secondary " style="transform: translateY(-390px); ">
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-4 h4">+10 años </span>
+                                    <small class="h5 text-muted mb-1">de experiencia técnica</small>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
+                        <div class="px-4">
+                            <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
+                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #136c34;">
+                                <i class="fa fa-briefcase fa-4x" aria-hidden="true" style="color: white;"></i>
+                            </div>
+
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-4 h4">+150 proyectos</span>
+                                    <small class="h5 text-muted">ejecutados a nivel nacional</small>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
+                        <div class="px-4">
+                            <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
+                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #b178cb;">
+                                <i class="fa fa-users fa-4x" aria-hidden="true" style="color: white;"></i>
+                            </div>
+
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-4 h4">+1,200 profesionales</span>
+                                    <small class="h5 text-muted">capacitados constantemente</small>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
+                        <div class="px-4">
+                            <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover  "
+                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #4c1824;">
+
+                                <i class="ni ni-building shadow rounded" style="font-size: 80px; color: white; "></i>
+                            </div>
+
+                            <div class="pt-4 text-center">
+                                <h5 class="title">
+                                    <span class="d-block mb-4 h4">+80 empresas</span>
+                                    <small class="h5 text-muted">asesoradas en distintos sectores</small>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section bg-secondary ">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
@@ -414,99 +517,6 @@
 
 
 
-        <section class="section section-sm">
-            <div class="container">
-                <div class="row justify-content-center text-center mb-lg">
-                    <div class="col-lg-8">
-                        <h2 class="display-3">The amazing Team</h2>
-                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'img/theme/team-1-800x800.jpg'"
-                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Ryan Tompson</span>
-                                    <small class="h6 text-muted">Web Developer</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                        icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'img/theme/team-2-800x800.jpg'"
-                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Romina Hadid</span>
-                                    <small class="h6 text-muted">Marketing Strategist</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
-                                        icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'img/theme/team-3-800x800.jpg'"
-                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">Alexander Smith</span>
-                                    <small class="h6 text-muted">UI/UX Designer</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
-                                        icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="px-4">
-                            <img v-lazy="'img/theme/team-4-800x800.jpg'"
-                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
-                            <div class="pt-4 text-center">
-                                <h5 class="title">
-                                    <span class="d-block mb-1">John Doe</span>
-                                    <small class="h6 text-muted">Founder and CEO</small>
-                                </h5>
-                                <div class="mt-3">
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
-                                        icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
-                                        icon-only></base-button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="section section-lg pt-0">
             <div class="container">
                 <card gradient="warning" no-body shadow-size="lg" class="border-0">
@@ -528,6 +538,7 @@
                 </card>
             </div>
         </section>
+
         <section class="section section-shaped my-0 overflow-hidden">
             <div class="shape shape-style-3 bg-gradient-default shape-skew">
                 <span></span>
@@ -566,6 +577,7 @@
                 </div>
             </div>
         </section>
+
 
         <section class="section section-lg">
             <div class="container">
@@ -633,16 +645,54 @@
             </div>
         </section>
 
+        <div class="row">
+
+
+
+
+
+
+            <!-- Modal 2 -->
+
+
+            <!-- Modal 3 -->
+            <div class="col-md-4">
+
+            </div>
+
+        </div>
+
     </div>
 </template>
 
 <script>
 import Hero from "./components/Hero";
-
+import BaseModal from "./components/BaseModal";
 export default {
     name: "home",
     components: {
-        Hero
-    }
+        Hero,
+        BaseModal
+    },
+    methods: {
+        guardarInfo() {
+            console.log("Información guardada correctamente ✅");
+        },
+        confirmarAccion() {
+            console.log("Acción confirmada ⚠️");
+        },
+        verDetalles() {
+            console.log("Mostrando detalles del proceso 📋");
+        },
+    },
 };
 </script>
+<style  >
+.modal-dialog {
+    display: flex !important;
+    align-items: center !important;
+    /* centra vertical */
+    min-height: 100vh;
+    /* ocupa toda la altura de la ventana */
+}
+</style>

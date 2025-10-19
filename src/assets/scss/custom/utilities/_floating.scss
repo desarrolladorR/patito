@@ -1,5 +1,5 @@
 .floating {
-	animation: floating 3s ease infinite;
+	animation: floating 2s ease infinite;
 	will-change: transform;
 
 	&:hover {
@@ -8,11 +8,11 @@
 }
 
 .floating-lg {
-	animation: floating-lg 3s ease infinite;
+	animation: floating-lg 2s ease infinite;
 }
 
 .floating-sm {
-	animation: floating-sm 3s ease infinite;
+	animation: floating-sm 2s ease infinite;
 }
 
 // Keyframes
