@@ -12,7 +12,7 @@
 
     <modal :show.sync="isVisible" :gradient="gradient" :modal-classes="modalClasses">
       <!-- Encabezado -->
-      <h6 slot="header" class="modal-title">
+      <h6 slot="header" :class="['modal-title', textColor]">
         {{ title }}
       </h6>
 
@@ -26,9 +26,6 @@
       <!-- Pie del modal -->
       <template slot="footer">
         <slot name="footer">
-          <base-button type="primary" @click="confirmAction">
-            {{ confirmText }}
-          </base-button>
           <base-button type="link" class="ml-auto" @click="isVisible = false">
             {{ closeText }}
           </base-button>
@@ -55,10 +52,6 @@ export default {
       type: String,
       default: "",
     },
-    confirmText: {
-      type: String,
-      default: "Guardar",
-    },
     closeText: {
       type: String,
       default: "Cerrar",
@@ -82,6 +75,10 @@ export default {
     showTriggerButton: {
       type: Boolean,
       default: true,
+    },
+    textColor:{
+       type: String,
+      default: "primary",
     },
   },
   data() {
