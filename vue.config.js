@@ -9,6 +9,12 @@ module.exports = {
       })
     ]
   },
+    chainWebpack: config => {
+    config.plugin('html').tap(args => {
+      args[0].favicon = './public/ptLogo.ico' // 👈 Ruta de tu ícono
+      return args
+    })
+  },
   pwa: {
     name: 'Vue Argon Design',
     themeColor: '#172b4d',
