@@ -7,22 +7,43 @@
 
             <div class="container">
                 <div class="row row-grid align-items-center ">
-                    <div class="col-lg-6">
-                        <div class="row row-grid align-items-center my-md">
-                            <div class=" row col-lg-6">
-                                <div class="col-lg-6">
-                                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i><br>
-                                    Quito – Ecuador
-                                </div>
+                    <div class=" row col-lg-6">
+                        <div class="col-lg-12">
+                            <div class="row row-grid align-items-center my-md">
+                                <div class=" row col-lg-12">
+                                    <div class="col-lg-12  ">
+                                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> 
+                                        Quito – Ecuador
+                                    </div>
 
-                                <div class="col-lg-6">
-                                    <i class="fa fa-mobile fa-2x" type="success"></i><br>0983697453
+                                    <div class="col-lg-12 mt-3">
+                                        <i class="fa fa-mobile fa-2x" type="success"></i> 0983697453
+                                    </div>
+
+                                     <div class="col-lg-12 mt-3">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>ptambo@pt-consultores.com 
+                                    </div>
+
+                                      
                                 </div>
                             </div>
-
-
-
                         </div>
+
+
+                        <div class="col-lg-12 text-lg-center btn-wrapper my-3">
+                            <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
+                                class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
+                                data-original-title="Follow us">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
+                                class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
+                                data-original-title="Like us">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                            
+                        </div>
+
                     </div>
                     <div class="col-lg-5">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
@@ -41,28 +62,7 @@
                         </card>
                     </div>
                 </div>
-                <div class="col-lg-12 text-lg-center btn-wrapper my-3">
-                    <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
-                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
-                        data-original-title="Follow us">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
-                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
-                        data-original-title="Like us">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://dribbble.com/creativetim"
-                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
-                        data-original-title="Follow us">
-                        <i class="fa fa-dribbble"></i>
-                    </a>
-                    <a target="_blank" rel="noopener" href="https://github.com/creativetimofficial"
-                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
-                        data-original-title="Star on Github">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </div>
+
             </div>
 
 

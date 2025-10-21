@@ -320,7 +320,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="fa fa-line-chart" gradient="success" color="white" shadow rounded> </icon>
+                                    <icon name="fa fa-bar-chart" gradient="success" color="white" shadow rounded> </icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">POSICIONAMIENTO</h5>
