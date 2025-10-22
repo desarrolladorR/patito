@@ -1,7 +1,7 @@
 <template>
     <div>
         <hero></hero>
-        <section class="section section-sm">
+        <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
@@ -24,20 +24,20 @@
                             <ul class="list-unstyled mt-5">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
-                                        <h6 class="mb-0">Carefully crafted components</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
-                                        <badge type="success" circle class="mr-3" icon="ni ni-html5"></badge>
-                                        <h6 class="mb-0">Amazing page examples</h6>
-                                    </div>
-                                </li>
-                                <li class="py-2">
-                                    <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h6 class="mb-0">Super friendly support team</h6>
+                                        <h6 class="mb-0">Asesoramos, capacitamos y fortalecemos tu gestión empresarial.</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="fa fa-heartbeat"></badge>
+                                        <h6 class="mb-0">Seguridad, salud y ambiente con excelencia técnica.</h6>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge type="success" circle class="mr-3" icon="ni ni-settings-gear-65"></badge>
+                                        <h6 class="mb-0">Impulsamos eficiencia, prevención y sostenibilidad.</h6>
                                     </div>
                                 </li>
                             </ul>
@@ -60,7 +60,7 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="container shape-container d-flex" style="transform: translateY(-280px); ">
+                <div class="container shape-container d-flex" style="transform: translateY(-200px); ">
                     <div class="row justify-content-center">
                         <div class="container">
                             <h1 class="display-3  text-white">
@@ -244,7 +244,7 @@
 
         </div>
 
-        <section class="section section-lg section-shaped my-0 overflow-hidden" style="transform: translateY(-350px); ">
+        <section class="section section-sm section-shaped my-0 overflow-hidden" style="transform: translateY(-350px); ">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -280,8 +280,8 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-primary">SEGURIDAD Y MEDIO AMBIENTE</h5>
-                                    <base-modal ref="modal5" title="SEGURIDAD Y MEDIO AMBIENTE" button-text="Leer Más" text-color="text-primary"
-                                        button-type="primary" @confirm="verDetalles">
+                                    <base-modal ref="modal5" title="SEGURIDAD Y MEDIO AMBIENTE" button-text="Leer Más"
+                                        text-color="text-primary" button-type="primary" @confirm="verDetalles">
                                         <p>
                                             Promover una cultura de prevención de riesgos laborales y de responsabilidad
                                             ambiental,
@@ -302,8 +302,8 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-info">EFICIENCIA Y PRODUCTIVIDAD</h5>
-                                    <base-modal ref="modal4" title="EFICIENCIA Y PRODUCTIVIDAD" button-text="Leer Más" text-color="text-info"
-                                        button-type="info" @confirm="verDetalles">
+                                    <base-modal ref="modal4" title="EFICIENCIA Y PRODUCTIVIDAD" button-text="Leer Más"
+                                        text-color="text-info" button-type="info" @confirm="verDetalles">
                                         <p>
                                             Fomentar la optimización de procesos industriales y administrativos,
                                             aplicando metodologías de mejora continua, planificación estratégica y control
@@ -324,8 +324,8 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">POSICIONAMIENTO</h5>
-                                    <base-modal ref="modal1" title="POSICIONAMIENTO" button-text="Leer Más" text-color="text-success"
-                                        button-type="success" @confirm="guardarInfo">
+                                    <base-modal ref="modal1" title="POSICIONAMIENTO" button-text="Leer Más"
+                                        text-color="text-success" button-type="success" @confirm="guardarInfo">
                                         <p>Ser reconocidos a nivel nacional como una empresa líder en asesoría y
                                             capacitación
                                             técnica dentro de los campos de seguridad, salud laboral, ambiente y producción
@@ -346,8 +346,8 @@
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">CRECIMIENTO</h5>
-                                    <base-modal ref="modal2" title="CRECIMIENTO" button-text="Leer Más" text-color="text-warning"
-                                        button-type="warning" @confirm="confirmarAccion">
+                                    <base-modal ref="modal2" title="CRECIMIENTO" button-text="Leer Más"
+                                        text-color="text-warning" button-type="warning" @confirm="confirmarAccion">
                                         <p>
                                             Impulsar un crecimiento sostenible y continuo, tanto en la capacidad técnica
                                             del
@@ -371,8 +371,8 @@
                                 <div class="pl-4">
                                     <h5 class="title text-light">RENTABILIDAD</h5>
                                     <!--  -->
-                                    <base-modal ref="modal3" title="RENTABILIDAD" button-text="Leer Más" button-type="light" text-color="text-light"
-                                        @confirm="verDetalles">
+                                    <base-modal ref="modal3" title="RENTABILIDAD" button-text="Leer Más" button-type="light"
+                                        text-color="text-light" @confirm="verDetalles">
                                         <p>
                                             Asegurar la eficiencia económica de los proyectos desarrollados,
                                             optimizando recursos y generando soluciones que incrementen la productividad y
@@ -397,20 +397,21 @@
             <br><br><br><br><br><br>
         </section>
 
-        <section class="section section-sm" style="transform: translateY(-200px); ">
-            <div class="container">
-                <div class="row justify-content-center text-center mb-lg">
-                    <div class="col-lg-8">
-                        <h2 class="display-3">Nuestra experiencia se refleja en:</h2>
+        <section class="section section-sm " style="transform: translateY(-200px); ">
+            <div class="container pt-lg pb-300">
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-10">
+                        <h2 class="display-3 text-default">Nuestra experiencia se refleja en:</h2>
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row row-grid mt-5">
+
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
                         <div class="px-4">
 
                             <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
-                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #444444;">
+                                style="display: flex; justify-content: center; align-items: center;  max-width: 180px; height: 180px; background-color: #444444;">
                                 <i class="fa fa-calendar fa-4x" aria-hidden="true" style="color: white;"></i>
                             </div>
 
@@ -428,7 +429,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
                         <div class="px-4">
                             <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
-                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #136c34;">
+                                style="display: flex; justify-content: center; align-items: center; max-width: 180px; height: 180px; background-color: #136c34;">
                                 <i class="fa fa-briefcase fa-4x" aria-hidden="true" style="color: white;"></i>
                             </div>
 
@@ -445,7 +446,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
                         <div class="px-4">
                             <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover "
-                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #b178cb;">
+                                style="display: flex; justify-content: center; align-items: center; max-width: 180px; height: 180px; background-color: #b178cb;">
                                 <i class="fa fa-users fa-4x" aria-hidden="true" style="color: white;"></i>
                             </div>
 
@@ -462,7 +463,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 floating">
                         <div class="px-4">
                             <div class="rounded-circle img-center img-fluid shadow shadow-lg--hover  "
-                                style="display: flex; justify-content: center; align-items: center; height: 180px; background-color: #4c1824;">
+                                style="display: flex; justify-content: center; align-items: center; max-width: 180px; height: 180px; background-color: #4c1824;">
 
                                 <i class="ni ni-building shadow rounded" style="font-size: 80px; color: white; "></i>
                             </div>
@@ -476,48 +477,20 @@
                             </div>
                         </div>
                     </div>
+ 
                 </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-10">
+
+                        <p class="lead text-default">“Más de una década acompañando a empresas ecuatorianas en el cumplimiento
+                            normativo y la mejora continua en seguridad y ambiente.”</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section class="section section-shaped my-0 overflow-hidden" >
-            <div class="shape shape-style-3 bg-gradient-default shape-skew">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="container pt-lg pb-300">
-                <div class="row text-center justify-content-center">
-                    <div class="col-lg-10">
-                        <h2 class="display-3 text-white">Build something</h2>
-                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                            tihs year down to low ice.</p>
-                    </div>
-                </div>
-                <div class="row row-grid mt-5">
-                    <div class="col-lg-4">
-                        <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Building tools</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Grow your market</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
-                        <h5 class="text-white mt-3">Launch time</h5>
-                        <p class="text-white mt-3">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </section>     
+     
 
     </div>
 </template>
