@@ -45,6 +45,7 @@
                     </div>
                 </div>
             </div>
+            <br><br>
         </section>
 
         <div class="position-relative section-sm">
@@ -60,7 +61,7 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="container shape-container d-flex" style="transform: translateY(-200px); ">
+                <div class="container shape-container d-flex" >
                     <div class="row justify-content-center">
                         <div class="container">
                             <h1 class="display-3  text-white">
@@ -70,7 +71,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="row row-grid">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4"  style="padding-bottom: 3rem;">
                                             <card class="border-0" hover shadow body-classes="py-5">
                                                 <icon type="primary" rounded class="mb-4">
                                                     <img src="img/consultoria/seguridadYsalud.svg" style="svg"
@@ -156,7 +157,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12" style="transform: translateY(30px); ">
+                                <div class="col-lg-12"  >
                                     <div class="row row-grid">
 
                                         <div class="col-lg-4">
@@ -240,11 +241,12 @@
                         </div>
                     </div>
                 </div>
+                
             </section>
 
         </div>
 
-        <section class="section section-sm section-shaped my-0 overflow-hidden" style="transform: translateY(-350px); ">
+        <section class="section section-sm section-shaped  my-0  "  style="transform: translateY(-17px); " >
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -397,7 +399,7 @@
             <br><br><br><br><br><br>
         </section>
 
-        <section class="section section-sm " style="transform: translateY(-200px); ">
+        <section class="section section-sm ">
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
@@ -492,7 +494,19 @@
 
      
 
+<a
+  href="https://api.whatsapp.com/send?phone=593983697453&text=Hola Necesito mas informacion"
+  class="whatsapp-float"
+  target="_blank"
+  title="Chatea con nosotros en WhatsApp"
+>
+  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+   <span class="whatsapp-tooltip">¿Tienes alguna pregunta?</span>
+</a>
     </div>
+
+
+    
 </template>
 
 <script>
@@ -524,5 +538,67 @@ export default {
     /* centra vertical */
     min-height: 100vh !important;
     /* ocupa toda la altura de la ventana */
+}
+ 
+  .whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 250px;
+  right: 25px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+    animation: pulse 1s infinite;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe57;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  animation: none;
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 70px; /* distancia del icono */
+  background-color: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+/* --- Animación de pulso --- */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
 }
 </style>

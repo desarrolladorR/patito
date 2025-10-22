@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer has-cards ">
+    <footer class="footer has-cards "  >
         
 
         <div class="container ">
@@ -11,12 +11,12 @@
                         <div class="col-lg-12 text-lg-center btn-wrapper my-3">
                             <a target="_blank" rel="noopener" href="https://twitter.com/creativetim"
                                 class="btn btn-neutral btn-icon-only  btn-round btn-lg" data-toggle="tooltip"
-                                data-original-title="Follow us">
+                                data-original-title="Follow us" style="color: #007bb6;">  
                                 <i class="fa fa-linkedin-square fa-3x"></i>
                             </a>
                             <a target="_blank" rel="noopener" href="https://www.facebook.com/creativetim"
                                 class="btn btn-neutral btn-icon-only   btn-round btn-lg" data-toggle="tooltip"
-                                data-original-title="Like us">
+                                data-original-title="Like us" style="color: #3b5998;">
                                 <i class="fa fa-facebook-square fa-3x"></i>
                             </a>
 
