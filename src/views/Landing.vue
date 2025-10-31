@@ -1,7 +1,7 @@
 <template>
     <div>
         <hero></hero>
-        <section class="section section-lg">
+        <section class="section section-lg fade-in-section">
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
@@ -14,7 +14,8 @@
                             <h2>Quiénes Somos</h2>
                             <h5>Experiencia y Compromiso con la Seguridad Laboral</h5>
                             <p>
-                                En PT Consultores, somos un equipo de profesionales con amplia experiencia en los sectores
+                                En PT Consultores, somos un equipo de profesionales con amplia experiencia en los
+                                sectores
                                 industrial,
                                 de construcción, manufactura y servicios.
                                 Nos especializamos en ofrecer soluciones integrales en Seguridad,
@@ -25,7 +26,8 @@
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
                                         <badge type="success" circle class="mr-3" icon="ni ni-satisfied"></badge>
-                                        <h6 class="mb-0">Asesoramos, capacitamos y fortalecemos tu gestión empresarial.</h6>
+                                        <h6 class="mb-0">Asesoramos, capacitamos y fortalecemos tu gestión empresarial.
+                                        </h6>
                                     </div>
                                 </li>
                                 <li class="py-2">
@@ -48,7 +50,7 @@
             <br><br>
         </section>
 
-        <div class="position-relative section-sm">
+        <div class="position-relative section-sm fade-in-section">
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 shape-default shape-skew">
                     <span></span>
@@ -61,7 +63,7 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="container shape-container d-flex" >
+                <div class="container shape-container d-flex">
                     <div class="row justify-content-center">
                         <div class="container">
                             <h1 class="display-3  text-white">
@@ -71,7 +73,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <div class="row row-grid">
-                                        <div class="col-lg-4"  style="padding-bottom: 3rem;">
+                                        <div class="col-lg-4" style="padding-bottom: 3rem;">
                                             <card class="border-0" hover shadow body-classes="py-5">
                                                 <icon type="primary" rounded class="mb-4">
                                                     <img src="img/consultoria/seguridadYsalud.svg" style="svg"
@@ -79,7 +81,8 @@
                                                 </icon>
 
                                                 <img src="img/imagenes/seguridadYSalud.webp" class="img-fluid">
-                                                <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad y
+                                                <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad
+                                                    y
                                                     Salud Ocupacional
                                                 </h6>
                                                 <ul class="description mt-3">
@@ -138,10 +141,13 @@
                                                     Sistemas de Gestión Integral
                                                 </h6>
                                                 <ul class="description mt-3">
-                                                    <li>Implementación y auditoría de sistemas de gestión basados en normas
+                                                    <li>Implementación y auditoría de sistemas de gestión basados en
+                                                        normas
                                                         ISO (9001, 14001, 45001)</li>
-                                                    <li>Integración de procesos de calidad, seguridad y medio ambiente</li>
-                                                    <li>Acompañamiento técnico en mejora continua y cumplimiento normativo
+                                                    <li>Integración de procesos de calidad, seguridad y medio ambiente
+                                                    </li>
+                                                    <li>Acompañamiento técnico en mejora continua y cumplimiento
+                                                        normativo
                                                     </li>
                                                 </ul>
                                                 <div>
@@ -157,13 +163,14 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12"  >
+                                <div class="col-lg-12">
                                     <div class="row row-grid">
 
                                         <div class="col-lg-4">
                                             <card class="border-0" hover shadow body-classes="py-5">
                                                 <icon type="info" rounded class="mb-4">
-                                                    <img src="img/consultoria/industria.svg" style="svg" class="img-fluid">
+                                                    <img src="img/consultoria/industria.svg" style="svg"
+                                                        class="img-fluid">
                                                 </icon>
                                                 <img src="img/imagenes/confeccionIndustrial.jpg" class="img-fluid">
                                                 <h6 class="text-info text-uppercase">
@@ -192,7 +199,8 @@
                                                         class="img-fluid">
                                                 </icon>
                                                 <img src="img/imagenes/equiposProteccion.jpg" class="img-fluid">
-                                                <h6 class="text-warning text-uppercase">Venta y Asesoramiento en Equipos de
+                                                <h6 class="text-warning text-uppercase">Venta y Asesoramiento en Equipos
+                                                    de
                                                     Protección Personal</h6>
                                                 <ul class="description mt-3">
                                                     <li>Selección y cotización de EPP según riesgo laboral </li>
@@ -212,8 +220,8 @@
                                         <div class="col-lg-4">
                                             <card class="border-0" hover shadow body-classes="py-5">
                                                 <icon type="light" rounded class="mb-4">
-                                                    <img src="img/consultoria/regulacionGestionAmbiental.svg" style="svg"
-                                                        class="img-fluid">
+                                                    <img src="img/consultoria/regulacionGestionAmbiental.svg"
+                                                        style="svg" class="img-fluid">
                                                 </icon>
 
                                                 <img src="img/imagenes/regulacionAmbiental.jpg" class="img-fluid">
@@ -241,12 +249,12 @@
                         </div>
                     </div>
                 </div>
-                
+
             </section>
 
         </div>
 
-        <section class="section section-sm section-shaped  my-0  "  style="transform: translateY(-17px); " >
+        <section class="section section-sm section-shaped  my-0 fade-in-section " style="transform: translateY(-17px); ">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -287,7 +295,8 @@
                                         <p>
                                             Promover una cultura de prevención de riesgos laborales y de responsabilidad
                                             ambiental,
-                                            mediante la implementación de prácticas seguras y sostenibles que aseguren el
+                                            mediante la implementación de prácticas seguras y sostenibles que aseguren
+                                            el
                                             bienestar
                                             del trabajador, la protección del entorno y el cumplimiento de la normativa
                                             vigente.
@@ -308,7 +317,8 @@
                                         text-color="text-info" button-type="info" @confirm="verDetalles">
                                         <p>
                                             Fomentar la optimización de procesos industriales y administrativos,
-                                            aplicando metodologías de mejora continua, planificación estratégica y control
+                                            aplicando metodologías de mejora continua, planificación estratégica y
+                                            control
                                             de
                                             producción.
                                             El objetivo es garantizar resultados medibles en calidad,
@@ -322,7 +332,8 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="fa fa-bar-chart" gradient="success" color="white" shadow rounded> </icon>
+                                    <icon name="fa fa-bar-chart" gradient="success" color="white" shadow rounded>
+                                    </icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">POSICIONAMIENTO</h5>
@@ -330,7 +341,8 @@
                                         text-color="text-success" button-type="success" @confirm="guardarInfo">
                                         <p>Ser reconocidos a nivel nacional como una empresa líder en asesoría y
                                             capacitación
-                                            técnica dentro de los campos de seguridad, salud laboral, ambiente y producción
+                                            técnica dentro de los campos de seguridad, salud laboral, ambiente y
+                                            producción
                                             industrial,
                                             fortaleciendo la confianza y satisfacción de nuestros clientes mediante
                                             servicios
@@ -344,7 +356,8 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="fa fa-line-chart" gradient="warning" color="white" shadow rounded></icon>
+                                    <icon name="fa fa-line-chart" gradient="warning" color="white" shadow rounded>
+                                    </icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">CRECIMIENTO</h5>
@@ -373,11 +386,12 @@
                                 <div class="pl-4">
                                     <h5 class="title text-light">RENTABILIDAD</h5>
                                     <!--  -->
-                                    <base-modal ref="modal3" title="RENTABILIDAD" button-text="Leer Más" button-type="light"
-                                        text-color="text-light" @confirm="verDetalles">
+                                    <base-modal ref="modal3" title="RENTABILIDAD" button-text="Leer Más"
+                                        button-type="light" text-color="text-light" @confirm="verDetalles">
                                         <p>
                                             Asegurar la eficiencia económica de los proyectos desarrollados,
-                                            optimizando recursos y generando soluciones que incrementen la productividad y
+                                            optimizando recursos y generando soluciones que incrementen la productividad
+                                            y
                                             competitividad
                                             de nuestros clientes, siempre bajo principios de responsabilidad social y
                                             sostenibilidad
@@ -399,7 +413,7 @@
             <br><br><br><br><br><br>
         </section>
 
-        <section class="section section-sm ">
+        <section class="section section-sm fade-in-section">
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
@@ -479,12 +493,13 @@
                             </div>
                         </div>
                     </div>
- 
+
                 </div>
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
 
-                        <p class="lead text-default">“Más de una década acompañando a empresas ecuatorianas en el cumplimiento
+                        <p class="lead text-default">“Más de una década acompañando a empresas ecuatorianas en el
+                            cumplimiento
                             normativo y la mejora continua en seguridad y ambiente.”</p>
                     </div>
                 </div>
@@ -492,21 +507,17 @@
             </div>
         </section>
 
-     
 
-<a
-  href="https://api.whatsapp.com/send?phone=593983697453&text=Hola Necesito mas informacion"
-  class="whatsapp-float"
-  target="_blank"
-  title="Chatea con nosotros en WhatsApp"
->
-  <i class="fa fa-whatsapp" aria-hidden="true"></i>
-   <span class="whatsapp-tooltip">¿Tienes alguna pregunta?</span>
-</a>
+
+        <a href="https://api.whatsapp.com/send?phone=593983697453&text=Hola Necesito mas informacion"
+            class="whatsapp-float" target="_blank" title="Chatea con nosotros en WhatsApp">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <span class="whatsapp-tooltip">¿Tienes alguna pregunta?</span>
+        </a>
     </div>
 
 
-    
+
 </template>
 
 <script>
@@ -529,9 +540,21 @@ export default {
             console.log("Mostrando detalles del proceso 📋");
         },
     },
+    mounted() {
+        const sections = document.querySelectorAll('.fade-in-section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        sections.forEach(section => observer.observe(section));
+    }
 };
 </script>
-<style  >
+<style>
 .modal-dialog {
     display: flex !important;
     align-items: center !important;
@@ -539,66 +562,81 @@ export default {
     min-height: 100vh !important;
     /* ocupa toda la altura de la ventana */
 }
- 
-  .whatsapp-float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 250px;
-  right: 25px;
-  background-color: #25d366;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 32px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 250px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
     animation: pulse 1s infinite;
 }
 
 .whatsapp-float:hover {
-  background-color: #1ebe57;
-  transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  animation: none;
+    background-color: #1ebe57;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    animation: none;
 }
 
 .whatsapp-tooltip {
-  position: absolute;
-  right: 70px; /* distancia del icono */
-  background-color: #333;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 8px;
-  font-size: 14px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    right: 70px;
+    /* distancia del icono */
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .whatsapp-float:hover .whatsapp-tooltip {
-  opacity: 1;
-  transform: translateY(-5px);
+    opacity: 1;
+    transform: translateY(-5px);
 }
+
 /* --- Animación de pulso --- */
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  }
-  50% {
-    transform: scale(1.1);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  }
+    0% {
+        transform: scale(1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in-section.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 </style>
