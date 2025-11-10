@@ -96,9 +96,9 @@
                                                     <badge type="primary" rounded>seguridad</badge>
                                                     <badge type="primary" rounded>Evaluaciones</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="primary" class="mt-4">
+                                          <!--       <base-button tag="a" href="#" type="primary" class="mt-4">
                                                     Leer Más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
 
@@ -123,9 +123,9 @@
                                                     <badge type="success" rounded>capacitación</badge>
                                                     <badge type="success" rounded>normativa</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="success" class="mt-4">
+                                              <!--   <base-button tag="a" href="#" type="success" class="mt-4">
                                                     Leer más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
 
@@ -155,9 +155,9 @@
                                                     <badge type="warning" rounded>mitigación</badge>
                                                     <badge type="warning" rounded>residuos</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="warning" class="mt-4">
+                                         <!--        <base-button tag="a" href="#" type="warning" class="mt-4">
                                                     Leer más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
                                     </div>
@@ -186,9 +186,9 @@
                                                     <badge type="info" rounded>sistemas</badge>
                                                     <badge type="info" rounded>textil</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="info" class="mt-4">
+                                           <!--      <base-button tag="a" href="#" type="info" class="mt-4">
                                                     Leer Más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
 
@@ -211,9 +211,9 @@
                                                     <badge type="warning" rounded>riesgo</badge>
                                                     <badge type="warning" rounded>laboral</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="warning" class="mt-4">
+                                              <!--   <base-button tag="a" href="#" type="warning" class="mt-4">
                                                     Leer más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
 
@@ -238,9 +238,9 @@
                                                     <badge type="light" rounded>mitigación</badge>
                                                     <badge type="light" rounded>residuos</badge>
                                                 </div>
-                                                <base-button tag="a" href="#" type="light" class="mt-4">
+                                            <!--     <base-button tag="a" href="#" type="light" class="mt-4">
                                                     Leer más
-                                                </base-button>
+                                                </base-button> -->
                                             </card>
                                         </div>
                                     </div>
