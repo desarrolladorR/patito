@@ -11,7 +11,7 @@ module.exports = {
   },
     chainWebpack: config => {
     config.plugin('html').tap(args => {
-      args[0].favicon = './public/ptLogo.ico' // 👈 Ruta de tu ícono
+      args[0].favicon = './public/logoCasco.ico' // 👈 Ruta de tu ícono
       return args
     })
   },

@@ -50,211 +50,288 @@
             <br><br>
         </section>
 
-        <div class="position-relative section-sm fade-in-section">
-            <section class="section-shaped my-0">
-                <div class="shape shape-style-1 shape-default shape-skew">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="container shape-container d-flex">
-                    <div class="row justify-content-center">
-                        <div class="container">
-                            <h1 class="display-3  text-white">
-                                Nuestros Servicios Principales
-                            </h1>
-                            <br>
-                            <div class="row justify-content-center">
-                                <div class="col-lg-12">
-                                    <div class="row row-grid">
-                                        <div class="col-lg-4" style="padding-bottom: 3rem;">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="primary" rounded class="mb-4">
-                                                    <img src="img/consultoria/seguridadYsalud.svg" style="svg"
-                                                        class="img-fluid">
-                                                </icon>
 
-                                                <img src="img/imagenes/seguridadYSalud.webp" class="img-fluid">
-                                                <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad
-                                                    y
-                                                    Salud Ocupacional
-                                                </h6>
-                                                <ul class="description mt-3">
-                                                    <li>Elaboración de matrices de riesgos laborales</li>
-                                                    <li>Planes y reglamentos de seguridad</li>
-                                                    <li>Capacitaciones preventivas y emergentes</li>
-                                                    <li>Evaluaciones psicosociales y ocupacionales</li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="primary" rounded>riesgos</badge>
-                                                    <badge type="primary" rounded>seguridad</badge>
-                                                    <badge type="primary" rounded>Evaluaciones</badge>
-                                                </div>
-                                          <!--       <base-button tag="a" href="#" type="primary" class="mt-4">
+        <section class="section-sm  section-shaped my-0 fade-in-section overflow-hidden">
+            <div class="shape shape-style-1 shape-default shape-skew">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="container shape-container d-flex">
+                <div class="row justify-content-center">
+                    <div class="container">
+                        <h1 class="display-3  text-white">
+                            Nuestros Servicios Principales
+                        </h1>
+                        <br>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="row row-grid">
+                                    <div class="col-lg-4" style="padding-bottom: 3rem;">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="primary" rounded class="mb-4">
+                                                <img src="img/consultoria/seguridadYsalud.svg" style="svg"
+                                                    class="img-fluid">
+                                            </icon>
+
+                                            <img src="img/imagenes/seguridadYSalud.webp" class="img-fluid">
+                                            <h6 class="text-primary text-uppercase"> Sistema de Gestión en Seguridad
+                                                y
+                                                Salud Ocupacional
+                                            </h6>
+                                            <ul class="description mt-3">
+                                                <li>Elaboración de matrices de riesgos laborales</li>
+                                                <li>Planes y reglamentos de seguridad</li>
+                                                <li>Capacitaciones preventivas y emergentes</li>
+                                                <li>Evaluaciones psicosociales y ocupacionales</li>
+                                                <li>
+                                                    <a @click="irA('10empleados')" style="cursor:pointer;">
+                                                        <u>Para 10 Empleados</u>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a @click="irA('masde10empleados')" style="cursor:pointer;">
+                                                        <u>Para más de 10 Empleados</u>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div>
+                                                <badge type="primary" rounded>riesgos</badge>
+                                                <badge type="primary" rounded>seguridad</badge>
+                                                <badge type="primary" rounded>Evaluaciones</badge>
+                                            </div>
+                                            <!--       <base-button tag="a" href="#" type="primary" class="mt-4">
                                                     Leer Más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
+                                    </div>
 
-                                        <div class="col-lg-4">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="success" rounded class="mb-4">
-                                                    <img src="img/consultoria/certificado.svg" style="svg"
-                                                        class="img-fluid">
-                                                </icon>
+                                    <div class="col-lg-4">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="success" rounded class="mb-4">
+                                                <img src="img/consultoria/certificado.svg" style="svg"
+                                                    class="img-fluid">
+                                            </icon>
 
-                                                <img src="img/imagenes/certificados.png" class="img-fluid">
-                                                <h6 class="text-success text-uppercase">Certificación en Competencias
-                                                    Laborales</h6>
-                                                <ul class="description mt-3">
-                                                    <li>Formación en prevención de riesgos laborales (Registro SENESCYT)
-                                                    </li>
-                                                    <li>Acompañamiento integral para la certificación</li>
-                                                    <li>Capacitación en normativa vigente y análisis de riesgos</li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="success" rounded>certificado</badge>
-                                                    <badge type="success" rounded>capacitación</badge>
-                                                    <badge type="success" rounded>normativa</badge>
-                                                </div>
-                                              <!--   <base-button tag="a" href="#" type="success" class="mt-4">
+                                            <img src="img/imagenes/certificados.png" class="img-fluid">
+                                            <h6 class="text-success text-uppercase">Certificación en Competencias
+                                                Laborales</h6>
+                                            <ul class="description mt-3">
+                                                <li>Formación en prevención de riesgos laborales (Registro SENESCYT)
+                                                </li>
+                                                <li>Acompañamiento integral para la certificación</li>
+                                                <li>Capacitación en normativa vigente y análisis de riesgos</li>
+                                            </ul>
+                                            <div>
+                                                <badge type="success" rounded>certificado</badge>
+                                                <badge type="success" rounded>capacitación</badge>
+                                                <badge type="success" rounded>normativa</badge>
+                                            </div>
+                                            <!--   <base-button tag="a" href="#" type="success" class="mt-4">
                                                     Leer más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
+                                    </div>
 
-                                        <div class="col-lg-4">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="warning" rounded class="mb-4">
-                                                    <img src="img/consultoria/gestionAmbiental.svg" style="svg"
-                                                        class="img-fluid">
-                                                </icon>
+                                    <div class="col-lg-4">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="warning" rounded class="mb-4">
+                                                <img src="img/consultoria/gestionAmbiental.svg" style="svg"
+                                                    class="img-fluid">
+                                            </icon>
 
-                                                <img src="img/imagenes/gestionIntegral.jpg" class="img-fluid">
-                                                <h6 class="text-warning text-uppercase">
-                                                    Sistemas de Gestión Integral
-                                                </h6>
-                                                <ul class="description mt-3">
-                                                    <li>Implementación y auditoría de sistemas de gestión basados en
-                                                        normas
-                                                        ISO (9001, 14001, 45001)</li>
-                                                    <li>Integración de procesos de calidad, seguridad y medio ambiente
-                                                    </li>
-                                                    <li>Acompañamiento técnico en mejora continua y cumplimiento
-                                                        normativo
-                                                    </li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="warning" rounded>licencias</badge>
-                                                    <badge type="warning" rounded>mitigación</badge>
-                                                    <badge type="warning" rounded>residuos</badge>
-                                                </div>
-                                         <!--        <base-button tag="a" href="#" type="warning" class="mt-4">
+                                            <img src="img/imagenes/gestionIntegral.jpg" class="img-fluid">
+                                            <h6 class="text-warning text-uppercase">
+                                                Sistemas de Gestión Integral
+                                            </h6>
+                                            <ul class="description mt-3">
+                                                <li>Implementación y auditoría de sistemas de gestión basados en
+                                                    normas
+                                                    ISO (9001, 14001, 45001)</li>
+                                                <li>Integración de procesos de calidad, seguridad y medio ambiente
+                                                </li>
+                                                <li>Acompañamiento técnico en mejora continua y cumplimiento
+                                                    normativo
+                                                </li>
+                                            </ul>
+                                            <div>
+                                                <badge type="warning" rounded>licencias</badge>
+                                                <badge type="warning" rounded>mitigación</badge>
+                                                <badge type="warning" rounded>residuos</badge>
+                                            </div>
+                                            <!--        <base-button tag="a" href="#" type="warning" class="mt-4">
                                                     Leer más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="col-lg-12">
-                                    <div class="row row-grid">
+                            <div class="col-lg-12">
+                                <div class="row row-grid">
 
-                                        <div class="col-lg-4">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="info" rounded class="mb-4">
-                                                    <img src="img/consultoria/industria.svg" style="svg"
-                                                        class="img-fluid">
-                                                </icon>
-                                                <img src="img/imagenes/confeccionIndustrial.jpg" class="img-fluid">
-                                                <h6 class="text-info text-uppercase">
-                                                    Producción y Confección Textil Industrial
-                                                </h6>
-                                                <ul class="description mt-3">
-                                                    <li>Optimización de procesos productivos</li>
-                                                    <li>Balanceo de líneas y tiempos</li>
-                                                    <li>Implementación de sistemas “Justo a Tiempo”</li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="info" rounded>procesos</badge>
-                                                    <badge type="info" rounded>sistemas</badge>
-                                                    <badge type="info" rounded>textil</badge>
-                                                </div>
-                                           <!--      <base-button tag="a" href="#" type="info" class="mt-4">
+                                    <div class="col-lg-4">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="info" rounded class="mb-4">
+                                                <img src="img/consultoria/industria.svg" style="svg" class="img-fluid">
+                                            </icon>
+                                            <img src="img/imagenes/confeccionIndustrial.jpg" class="img-fluid">
+                                            <h6 class="text-info text-uppercase">
+                                                Producción y Confección Textil Industrial
+                                            </h6>
+                                            <ul class="description mt-3">
+                                                <li>Optimización de procesos productivos</li>
+                                                <li>Balanceo de líneas y tiempos</li>
+                                                <li>Implementación de sistemas “Justo a Tiempo”</li>
+                                            </ul>
+                                            <div>
+                                                <badge type="info" rounded>procesos</badge>
+                                                <badge type="info" rounded>sistemas</badge>
+                                                <badge type="info" rounded>textil</badge>
+                                            </div>
+                                            <!--      <base-button tag="a" href="#" type="info" class="mt-4">
                                                     Leer Más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
+                                    </div>
 
-                                        <div class="col-lg-4">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="warning" rounded class="mb-4">
-                                                    <img src="img/consultoria/equiposProteccion.svg" style="svg"
-                                                        class="img-fluid">
-                                                </icon>
-                                                <img src="img/imagenes/equiposProteccion.jpg" class="img-fluid">
-                                                <h6 class="text-warning text-uppercase">Venta y Asesoramiento en Equipos
-                                                    de
-                                                    Protección Personal</h6>
-                                                <ul class="description mt-3">
-                                                    <li>Selección y cotización de EPP según riesgo laboral </li>
-                                                    <li>Comercialización de marcas certificadas</li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="warning" rounded>cotización</badge>
-                                                    <badge type="warning" rounded>riesgo</badge>
-                                                    <badge type="warning" rounded>laboral</badge>
-                                                </div>
-                                              <!--   <base-button tag="a" href="#" type="warning" class="mt-4">
+                                    <div class="col-lg-4">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="warning" rounded class="mb-4">
+                                                <img src="img/consultoria/equiposProteccion.svg" style="svg"
+                                                    class="img-fluid">
+                                            </icon>
+                                            <img src="img/imagenes/equiposProteccion.jpg" class="img-fluid">
+                                            <h6 class="text-warning text-uppercase">Venta y Asesoramiento en Equipos
+                                                de
+                                                Protección Personal</h6>
+                                            <ul class="description mt-3">
+                                                <li>Selección y cotización de EPP según riesgo laboral </li>
+                                                <li>Comercialización de marcas certificadas</li>
+                                            </ul>
+                                            <div>
+                                                <badge type="warning" rounded>cotización</badge>
+                                                <badge type="warning" rounded>riesgo</badge>
+                                                <badge type="warning" rounded>laboral</badge>
+                                            </div>
+                                            <!--   <base-button tag="a" href="#" type="warning" class="mt-4">
                                                     Leer más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
+                                    </div>
 
-                                        <div class="col-lg-4">
-                                            <card class="border-0" hover shadow body-classes="py-5">
-                                                <icon type="light" rounded class="mb-4">
-                                                    <img src="img/consultoria/regulacionGestionAmbiental.svg"
-                                                        style="svg" class="img-fluid">
-                                                </icon>
+                                    <div class="col-lg-4">
+                                        <card class="border-0" hover shadow body-classes="py-5">
+                                            <icon type="light" rounded class="mb-4">
+                                                <img src="img/consultoria/regulacionGestionAmbiental.svg" style="svg"
+                                                    class="img-fluid">
+                                            </icon>
 
-                                                <img src="img/imagenes/regulacionAmbiental.jpg" class="img-fluid">
-                                                <h6 class="text-light text-uppercase">
-                                                    Regularización y Gestión Ambiental
-                                                </h6>
-                                                <ul class="description mt-3">
-                                                    <li>Certificados, registros y licencias ambientales</li>
-                                                    <li>Planes de manejo y mitigación</li>
-                                                    <li>Gestión integral de residuos sólidos y efluentes</li>
-                                                </ul>
-                                                <div>
-                                                    <badge type="light" rounded>licencias</badge>
-                                                    <badge type="light" rounded>mitigación</badge>
-                                                    <badge type="light" rounded>residuos</badge>
-                                                </div>
+                                            <img src="img/imagenes/regulacionAmbiental.jpg" class="img-fluid">
+                                            <h6 class="text-light text-uppercase">
+                                                Regularización y Gestión Ambiental
+                                            </h6>
+                                            <ul class="description mt-3">
+                                                <li>Certificados, registros y licencias ambientales</li>
+                                                <li>Planes de manejo y mitigación</li>
+                                                <li>Gestión integral de residuos sólidos y efluentes</li>
+                                            </ul>
+                                            <div>
+                                                <badge type="light" rounded>licencias</badge>
+                                                <badge type="light" rounded>mitigación</badge>
+                                                <badge type="light" rounded>residuos</badge>
+                                            </div>
                                             <!--     <base-button tag="a" href="#" type="light" class="mt-4">
                                                     Leer más
                                                 </base-button> -->
-                                            </card>
-                                        </div>
+                                        </card>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-            </section>
 
-        </div>
+        <section class="section-sm fade-in-section   my-0  ">
+            <div class="container pt-sm pb-300">
+                <div id="10empleados">
+                    <div class="row text-center justify-content-center">
+                        <div class="col-lg-10">
+                            <h2 class="display-3 text-blue">Build something</h2>
+                            <p class="lead text-blue">According to the National Oceanic and Atmospheric Administration,
+                                Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
+                                tihs year down to low ice.</p>
+                        </div>
+                    </div>
+                    <div class="row row-grid mt-1">
+                        <div class="col-lg-4">
+                            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
+                            <h5 class="text-blue mt-3">Building tools</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary">
+                            </icon>
+                            <h5 class="text-blue mt-3">Grow your market</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
+                            <h5 class="text-blue mt-3">Launch time</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div id="masde10empleados">
+                    <div class="row text-center justify-content-center mt-5">
+                        <div class="col-lg-10">
+                            <h2 class="display-3 text-blue">Build something</h2>
+                            <p class="lead text-blue">According to the National Oceanic and Atmospheric Administration,
+                                Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
+                                tihs year down to low ice.</p>
+                        </div>
+                    </div>
 
-        <section class="section section-sm section-shaped  my-0 fade-in-section " style="transform: translateY(-17px); ">
+                    <div class="row row-grid mt-1">
+                        <div class="col-lg-4">
+                            <icon name="ni ni-settings" size="lg" gradient="white" shadow round color="primary"></icon>
+                            <h5 class="text-blue mt-3">Building tools</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <icon name="ni ni-ruler-pencil" size="lg" gradient="white" shadow round color="primary">
+                            </icon>
+                            <h5 class="text-blue mt-3">Grow your market</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <icon name="ni ni-atom" size="lg" gradient="white" shadow round color="primary"></icon>
+                            <h5 class="text-blue mt-3">Launch time</h5>
+                            <p class="text-blue mt-3">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section-sm section-shaped  my-0 fade-in-section "
+            style="transform: translateY(-17px); ">
             <div class="shape shape-style-1 bg-gradient-warning shape-skew">
                 <span></span>
                 <span></span>
@@ -539,6 +616,15 @@ export default {
         verDetalles() {
             console.log("Mostrando detalles del proceso 📋");
         },
+        irA(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            }
+        }
     },
     mounted() {
         const sections = document.querySelectorAll('.fade-in-section');
@@ -546,9 +632,13 @@ export default {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
+                    observer.unobserve(entry.target); // mejora rendimiento
                 }
             });
-        }, { threshold: 0.2 });
+        }, {
+            threshold: 0.05,        // 👈 más bajo = funciona mejor en móvil
+            rootMargin: "0px 0px -10% 0px"  // 👈 ayuda a disparar antes
+        });
 
         sections.forEach(section => observer.observe(section));
     }
